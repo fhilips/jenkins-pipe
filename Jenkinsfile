@@ -7,7 +7,7 @@ pipeline {
         sh 'echo "Olá Jenkins"'
         sh '''
           echo "Nossa primeira pipeline"
-          ls -la"
+          ls -la
         '''
       }
     }     
