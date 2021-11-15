@@ -6,7 +6,7 @@ pipeline {
       steps {
         sh 'echo "Olá Jenkins"'
         sh '''
-          echo "Nossa primeira pipeline
+          echo "Nossa primeira pipeline"
           ls -la"
         '''
       }
