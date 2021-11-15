@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   stages {
-    stage('Build')
+    stage('Build') {
       steps {
         sh 'echo "Olá Jenkins"'
         sh '''
@@ -10,5 +10,6 @@ pipeline {
           ls -la"
         '''
       }
+    }     
   }
 }
